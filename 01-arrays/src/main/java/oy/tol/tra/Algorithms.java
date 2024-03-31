@@ -7,7 +7,7 @@ public class Algorithms {
     public static <T> void reverse(T[] arr) {
         int start = 0;
         int end = arr.length - 1;
-        while (start < end) {
+        while (start <=end) {
             T temp = arr[start];
             arr[start] = arr[end];
             arr[end] = temp;
@@ -36,4 +36,12 @@ public class Algorithms {
             n--;
         }
     }
+
+
+
+
+
+
+    
+
 }
